@@ -15,6 +15,7 @@ namespace Chapter.WebApi.Controllers
 
     // Define que a rota de uma requisição será no formato dominio/api/nomeController
     // ex: http://localhost:5000/api/livros
+    //https://chaptereduardovilar.azurewebsites.net/api/livros
     [Route("api/[controller]")]
 
     // atributo para habilitar comportamentos especificos de API, como status, retorno
